@@ -96,13 +96,18 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Peter&#39;s Blogs">
-<meta property="og:url" content="http://blogs.peteryuan.net/index.html">
+  <meta name="description" content="本文其他地址：简书 / 伯乐在线  序Python易用，但用好却不易，其中比较头疼的就是包管理和Python不同版本的问题，特别是当你使用Windows的时候。为了解决这些问题，有不少发行版的Python，比如WinPython、Anaconda等，这些发行版将python和许多常用的package打包，方便pythoners直接使用，此外，还有virtualenv、pyenv等工具管理虚拟环境。">
+<meta name="keywords" content="Anaconda,Conda,Python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Anaconda使用总结">
+<meta property="og:url" content="http://blogs.peteryuan.net/use-anaconda/index.html">
 <meta property="og:site_name" content="Peter&#39;s Blogs">
+<meta property="og:description" content="本文其他地址：简书 / 伯乐在线  序Python易用，但用好却不易，其中比较头疼的就是包管理和Python不同版本的问题，特别是当你使用Windows的时候。为了解决这些问题，有不少发行版的Python，比如WinPython、Anaconda等，这些发行版将python和许多常用的package打包，方便pythoners直接使用，此外，还有virtualenv、pyenv等工具管理虚拟环境。">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-03-12T14:22:15.018Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Peter&#39;s Blogs">
+<meta name="twitter:title" content="Anaconda使用总结">
+<meta name="twitter:description" content="本文其他地址：简书 / 伯乐在线  序Python易用，但用好却不易，其中比较头疼的就是包管理和Python不同版本的问题，特别是当你使用Windows的时候。为了解决这些问题，有不少发行版的Python，比如WinPython、Anaconda等，这些发行版将python和许多常用的package打包，方便pythoners直接使用，此外，还有virtualenv、pyenv等工具管理虚拟环境。">
 
 
 
@@ -111,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="http://blogs.peteryuan.net/">
+  <link rel="canonical" href="http://blogs.peteryuan.net/use-anaconda/">
 
 
 
@@ -121,7 +126,7 @@
   };
 </script>
 
-  <title>Peter's Blogs</title>
+  <title>Anaconda使用总结 | Peter's Blogs</title>
   
 
 
@@ -177,8 +182,7 @@
   
   
 
-  <div class="container 
-  page-home">
+  <div class="container page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,7 +220,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -330,169 +334,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blogs.peteryuan.net/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Peter Yuan">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar-peter.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Peter's Blogs">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2017-10-28 08:39:58" itemprop="dateCreated datePublished" datetime="2017-10-28T08:39:58+08:00">2017-10-28</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">Comments: </span>
-                <a href="/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
 
   
 
@@ -524,10 +368,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/use-anaconda/" class="post-title-link" itemprop="url">Anaconda使用总结</a>
+          <h1 class="post-title" itemprop="name headline">Anaconda使用总结
+
               
             
           </h1>
@@ -616,9 +458,7 @@
       
 
       
-        
-          
-            <p>本文其他地址：<a href="http://www.jianshu.com/p/2f3be7781451" target="_blank" rel="noopener">简书</a> / <a href="http://python.jobbole.com/86236/" target="_blank" rel="noopener">伯乐在线</a></p>
+        <p>本文其他地址：<a href="http://www.jianshu.com/p/2f3be7781451" target="_blank" rel="noopener">简书</a> / <a href="http://python.jobbole.com/86236/" target="_blank" rel="noopener">伯乐在线</a></p>
 <hr>
 <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>Python易用，但用好却不易，其中比较头疼的就是包管理和Python不同版本的问题，特别是当你使用Windows的时候。为了解决这些问题，有不少发行版的Python，比如WinPython、Anaconda等，这些发行版将python和许多常用的package打包，方便pythoners直接使用，此外，还有virtualenv、pyenv等工具管理虚拟环境。</p>
 <p>个人尝试了很多类似的发行版，最终选择了Anaconda，因为其强大而方便的包管理与环境管理的功能。该文主要介绍下Anaconda，对Anaconda的理解，并简要总结下相关的操作。</p>
@@ -667,8 +507,6 @@
 <li><a href="http://conda.pydata.org/docs/index.html" target="_blank" rel="noopener">Conda Docs</a></li>
 </ul>
 
-          
-        
       
     </div>
 
@@ -689,575 +527,44 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blogs.peteryuan.net/word-latex-manage/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Peter Yuan">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar-peter.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Peter's Blogs">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/word-latex-manage/" class="post-title-link" itemprop="url">文档、文案与知识管理</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2016-03-31 00:00:00" itemprop="dateCreated datePublished" datetime="2016-03-31T00:00:00+08:00">2016-03-31</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2019-03-12 22:31:19" itemprop="dateModified" datetime="2019-03-12T22:31:19+08:00">2019-03-12</time>
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/Anaconda/" rel="tag"># Anaconda</a>
           
-            
-            
-              
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-            
-                <span class="post-meta-item-text">Comments: </span>
-                <a href="/word-latex-manage/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="word-latex-manage/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
+            <a href="/tags/Conda/" rel="tag"># Conda</a>
           
-
+            <a href="/tags/Python/" rel="tag"># Python</a>
           
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>注：本文为<code>文档排版与文案设计</code>（20160331）讲座讲义。 <strong>致谢声明： 本教程中LaTeX部分参考了<a href="http://dralpha.altervista.org/zh/index.htm" target="_blank" rel="noopener">LaTeX Notes (2nd)</a>和<a href="https://github.com/tuna/thulib-latex-talk" target="_blank" rel="noopener">thulib-latex-talk</a>相关内容，在此向原作者表示感谢 :)</strong></p>
-<hr>
-<h1 id="排版软件概述"><a href="#排版软件概述" class="headerlink" title="排版软件概述"></a>排版软件概述</h1><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><ul>
-<li>图形化界面<ul>
-<li>所见即所得（What you see is what you get）</li>
-</ul>
-</li>
-<li>日常办公、学习中应用广泛</li>
-</ul>
-<h2 id="LaTeX"><a href="#LaTeX" class="headerlink" title="LaTeX"></a>LaTeX</h2><ul>
-<li>编译型排版系统</li>
-<li>TeX<ul>
-<li>Donald E. Knuth, 1978</li>
-<li>TeX 3.14159265</li>
-</ul>
-</li>
-<li>LaTeX<ul>
-<li>Leslie Lamport</li>
-</ul>
-</li>
-</ul>
-<h2 id="Word-LaTeX-对比"><a href="#Word-LaTeX-对比" class="headerlink" title="Word/LaTeX 对比"></a>Word/LaTeX 对比</h2><table>
-<thead>
-<tr>
-<th style="text-align:center">Microsoft® Word</th>
-<th style="text-align:center">LaTeX</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">字处理工具</td>
-<td style="text-align:center">专业排版软件</td>
-</tr>
-<tr>
-<td style="text-align:center">容易上手，简单直观</td>
-<td style="text-align:center">门槛稍高，上手后容易</td>
-</tr>
-<tr>
-<td style="text-align:center">所见即所得</td>
-<td style="text-align:center">所想即所得</td>
-</tr>
-<tr>
-<td style="text-align:center">高级功能不易掌握</td>
-<td style="text-align:center">进阶难，但一般用不到</td>
-</tr>
-<tr>
-<td style="text-align:center">处理长文档需要丰富经验</td>
-<td style="text-align:center">和短文档处理基本无异</td>
-</tr>
-<tr>
-<td style="text-align:center">同时关注内容和格式</td>
-<td style="text-align:center">仅关注内容即可</td>
-</tr>
-<tr>
-<td style="text-align:center">公式排版差强人意</td>
-<td style="text-align:center">尤其擅长公式排版</td>
-</tr>
-<tr>
-<td style="text-align:center">二进制格式</td>
-<td style="text-align:center">文本文件+编译</td>
-</tr>
-<tr>
-<td style="text-align:center">付费商业许可</td>
-<td style="text-align:center">自由免费试用</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Word的使用"><a href="#Word的使用" class="headerlink" title="Word的使用"></a>Word的使用</h2><h3 id="Word基础操作"><a href="#Word基础操作" class="headerlink" title="Word基础操作"></a>Word基础操作</h3><ul>
-<li>基本设置、自定义选项卡<ul>
-<li>标题栏、菜单栏、工具栏、状态栏</li>
-<li>Ribbon界面（固定/悬浮）</li>
-<li>选项卡可以定制，但一般不太需要</li>
-<li>键盘/鼠标快捷操作（如全选、行选、矩形框选择）</li>
-<li>复制、粘贴（各种粘贴模式）</li>
-</ul>
-</li>
-<li>视图模式<ul>
-<li>页面视图、<strong>大纲视图</strong>（显示文章真正的内容，去掉格式的影响）</li>
-<li>阅读视图（个人喜好）</li>
-<li>拆分视图功能很常用（需要同时阅读文档的两个不同部分）</li>
-</ul>
-</li>
-<li>导航、搜索、查找与替换<ul>
-<li>建议打开导航窗格（新版本的Word把简单的搜索也加入导航窗格）</li>
-<li>搜索、查找、替换（重视高级功能，如正则匹配，加快效率）</li>
-</ul>
-</li>
-<li>段落、段落设置<ul>
-<li>排版中段的概念（<strong>新起一行 != 新的一段</strong>）</li>
-<li>段落缩进的概念</li>
-<li>硬回车(<code>Enter</code>)与软回车(<code>Shift</code>+<code>Enter</code>)</li>
-<li><strong>区分：段落缩进 &amp; TAB &amp; 空格</strong>（大纲视图里查看区别）</li>
-<li>有些设置是段落意义上的，比如缩进、行间距等（段落选项卡）</li>
-</ul>
-</li>
-<li>项目符号与编号<ul>
-<li>不同级别的项目内部是依靠缩进实现的</li>
-<li>可以设置缩进间距等参数（右键——调整列表缩进）</li>
-<li>项目的自动编号（与样式配合使用）</li>
-</ul>
-</li>
-<li>页面版式、布局<ul>
-<li>可以调节页边距、横版竖版、分栏等</li>
-<li>如何局部分栏（配合分节查看结果）</li>
-</ul>
-</li>
-<li><strong>分页与分节</strong><ul>
-<li>分页是物理意义上的，分节是排版意义上的</li>
-<li>分页：软分页、硬分页（<code>Ctrl</code>+<code>Enter</code>）</li>
-<li>分节：有些概念是针对节的，<strong>节是Word管理不同章节结构的重要机制</strong></li>
-<li>以页码为例介绍分节，如何设置不同的页码格式</li>
-</ul>
-</li>
-</ul>
-<h3 id="Word图表使用"><a href="#Word图表使用" class="headerlink" title="Word图表使用"></a>Word图表使用</h3><blockquote>
-<p>Word里的图形</p>
-</blockquote>
-<ul>
-<li>简单图形绘制（插入——形状，复杂组合图案注意“新建绘图画布”）</li>
-<li><code>SmartArt</code>（简单版本的<code>Visio</code>）</li>
-<li>不要再用Word的艺术字了，真的很丑。。。</li>
-<li>插入外源图片</li>
-<li>图片的简单处理<ul>
-<li>压缩！裁剪、简单扣除背景（可替代简单的PS操作）</li>
-<li>区分：<strong>背景白/无背景</strong></li>
-</ul>
-</li>
-<li>辅助软件<ul>
-<li>PowerPoint、Visio、Photoshop</li>
-</ul>
-</li>
-<li><strong>矢量图与点阵图</strong></li>
-</ul>
-<blockquote>
-<p>Word里的表格</p>
-</blockquote>
-<ul>
-<li>表格样式、对齐</li>
-<li>绘图，注意区分<ul>
-<li>区分：<strong>无边框/白色边框/擦除边框</strong></li>
-</ul>
-</li>
-<li>重复标题行（属性）、从文字新建表格（快捷）</li>
-<li>Excel——实现更为复杂的功能</li>
-<li>表格的巧用——文字对齐（做封面等）</li>
-</ul>
-<blockquote>
-<p>Word图表使用原则</p>
-</blockquote>
-<ul>
-<li><strong>样式统一</strong></li>
-<li>自动索引（演示）<ul>
-<li>自动更新（本质上是更新域的值）</li>
-<li>删除——“错误！未找到引用源”（类比指针的概念，失去指向的对象）</li>
-<li>自动目录</li>
-</ul>
-</li>
-<li>自定义标签（表格 -&gt; 案例）</li>
-</ul>
-<h3 id="Word结构化排版"><a href="#Word结构化排版" class="headerlink" title="Word结构化排版"></a>Word结构化排版</h3><ul>
-<li>结构化排版的意识！<ul>
-<li>文章的逻辑结构（篇、章、节）</li>
-<li>与LaTeX中的<code>section</code>概念类比</li>
-</ul>
-</li>
-<li>级别设置（默认的太丑）<ul>
-<li>自动编号</li>
-<li>导航窗格（可以拖拽，整体移动）</li>
-<li>自定义不同级别格式 -&gt; 个人模板</li>
-<li>自动索引/目录（TOC标题、目录1、目录2经常有bug…）</li>
-<li>转pdf时会自动输出“书签”</li>
-<li>同一级别的也有两种样式！（如带编号、不带编号）</li>
-<li>更多操作：自己多动手试试！</li>
-</ul>
-</li>
-</ul>
-<h2 id="PowerPoint-Excel的使用"><a href="#PowerPoint-Excel的使用" class="headerlink" title="PowerPoint/Excel的使用"></a>PowerPoint/Excel的使用</h2><p>PowerPoint/Excel略讲，基本原理与Word类似。</p>
-<h3 id="PowerPoint的使用"><a href="#PowerPoint的使用" class="headerlink" title="PowerPoint的使用"></a>PowerPoint的使用</h3><ul>
-<li>PowerPoint到底可以做什么？<ul>
-<li>展示（汇报、答辩、宣传）、海报、视频</li>
-<li><code>some PowerPoint, no Power, also no Point...</code></li>
-</ul>
-</li>
-<li>PPT只是你的表达的辅助，不宜过多文字，更忌念PPT的行为</li>
-<li>不要滥用分级（超过3级听众便已很难follow）</li>
-<li>重视<strong>幻灯片母版</strong></li>
-<li>demo</li>
-</ul>
-<h3 id="Excel的使用"><a href="#Excel的使用" class="headerlink" title="Excel的使用"></a>Excel的使用</h3><ul>
-<li>想清楚你的使用目的（展示？数据统计？）</li>
-<li>数据统计<ul>
-<li>按照<code>关系型数据库</code>的思维建立表格</li>
-</ul>
-</li>
-<li>函数使用：SUM, AVERAGE, COUNTIF, RANK, <strong>VLOOKUP</strong></li>
-<li>单元格的相对引用(E3)与绝对引用($E$3)</li>
-<li>Misc:<ul>
-<li>冻结首行，视图</li>
-<li>文本格式与分列（避免手机号等显示时被保留截断，注意仅更改单元格格式并不起作用）</li>
-</ul>
-</li>
-</ul>
-<p>More about MS Office: VBA编程，自定义个人需求</p>
-<h1 id="LaTeX的使用"><a href="#LaTeX的使用" class="headerlink" title="LaTeX的使用"></a>LaTeX的使用</h1><h2 id="LaTeX简介"><a href="#LaTeX简介" class="headerlink" title="LaTeX简介"></a>LaTeX简介</h2><ul>
-<li>LaTeX是一种文字排版系统，基于TeX排版系统并由此发展而来。</li>
-<li>LaTeX简史</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">时间</th>
-<th style="text-align:center">关键词</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">1976-1978</td>
-<td style="text-align:center">Donald E. Knuth, The Art of Programming, <code>TeX</code></td>
-</tr>
-<tr>
-<td style="text-align:center">1982</td>
-<td style="text-align:center">AMS-TeX, AMSFonts</td>
-</tr>
-<tr>
-<td style="text-align:center">1984</td>
-<td style="text-align:center">Plain TeX</td>
-</tr>
-<tr>
-<td style="text-align:center">1984-1985</td>
-<td style="text-align:center">Leslie Lamport, <code>LaTeX</code></td>
-</tr>
-<tr>
-<td style="text-align:center">1989</td>
-<td style="text-align:center">Mittelbach, LaTeX3</td>
-</tr>
-<tr>
-<td style="text-align:center">1991-1993</td>
-<td style="text-align:center">Comprehensive TeX Archive Network (CTAN)</td>
-</tr>
-<tr>
-<td style="text-align:center">1994</td>
-<td style="text-align:center"><code>LaTeX2e</code></td>
-</tr>
-<tr>
-<td style="text-align:center">2007</td>
-<td style="text-align:center">XeTeX, <code>XeLaTeX</code></td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p>如果将LaTeX比作一个宏伟的建筑，TeX就是它的基础，所有的TeX基本命令和扩展命令都是构成LaTeX的基础。</p>
-</blockquote>
-<ul>
-<li>从排版的角度看待LaTeX（TeX是一种语言也是一个排版引擎）<ul>
-<li>图像数据（RIP）</li>
-<li>页面描述语言（DVI、PS、PDF）</li>
-<li>标记语言（troff、SGML、TeX系列）</li>
-</ul>
-</li>
-<li>软件准备<ul>
-<li>遵照TeX的规范将一套实用程序打包集成在一起，形成发行版（distribution）</li>
-</ul>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">操作系统</th>
-<th style="text-align:center">发行版</th>
-<th style="text-align:center">编辑器</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">通用</td>
-<td style="text-align:center">TeX Live</td>
-<td style="text-align:center">TeXworks</td>
-</tr>
-<tr>
-<td style="text-align:center">Windows</td>
-<td style="text-align:center">MikTeX</td>
-<td style="text-align:center">TeXstudio</td>
-</tr>
-<tr>
-<td style="text-align:center">Mac OS</td>
-<td style="text-align:center">MacTeX</td>
-<td style="text-align:center">TeXShop</td>
-</tr>
-</tbody>
-</table>
-<h2 id="LaTeX功能演示"><a href="#LaTeX功能演示" class="headerlink" title="LaTeX功能演示"></a>LaTeX功能演示</h2><ul>
-<li><code>演示</code>TeX系统针对不同格式和引擎组合，提供了一系列命令行程序，完成不同的编译和转换功能。<ul>
-<li>LaTeX</li>
-<li>XeLaTeX (+ utf-8) 中文支持最好</li>
-</ul>
-</li>
-<li><strong>文章的结构</strong><ul>
-<li>part, chapter</li>
-<li><strong>section</strong>, subsection, subsubsection</li>
-<li>paragraph, subparagraph</li>
-</ul>
-</li>
-<li>各种功能演示<ul>
-<li>文本、公式、字体、版面、表格、插图</li>
-</ul>
-</li>
-<li>幻灯片制作<ul>
-<li><code>\documentclass{beamer}</code></li>
-</ul>
-</li>
-<li>再谈结构化与模板<ul>
-<li>模板：已经设计好的格式框架</li>
-<li>使用户专注于内容</li>
-</ul>
-</li>
-<li>MS Word<ul>
-<li>很少有人有意识地在Word中使用模板</li>
-<li>自定义、自动化</li>
-<li>学习LaTeX能够帮助自己更科学地使用Word</li>
-</ul>
-</li>
-</ul>
-<h2 id="LaTeX学习资料"><a href="#LaTeX学习资料" class="headerlink" title="LaTeX学习资料"></a>LaTeX学习资料</h2><ul>
-<li>学习资料推荐<ul>
-<li><a href="http://www.ctan.org" target="_blank" rel="noopener">CTAN HomePage</a></li>
-<li><a href="http://www.ctex.org/HomePage" target="_blank" rel="noopener">CTeX HomePage</a></li>
-<li>The Not So Short Introduction to LaTeX2e (lshort) <a href="http://www.ctan.org/tex-archive/info/lshort" target="_blank" rel="noopener">[home]</a> <a href="http://mirrors.ctan.org/info/lshort/english/lshort.pdf" target="_blank" rel="noopener">[lshort-en.pdf]</a> <a href="http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf" target="_blank" rel="noopener">[lshort-zh-cn.pdf]</a></li>
-<li>LaTeX Notes (2nd) <a href="http://dralpha.altervista.org/zh/tech/lnotes2.pdf" target="_blank" rel="noopener">[pdf]</a> <a href="http://dralpha.altervista.org/zh/tech/lnotes2.zip" target="_blank" rel="noopener">[src]</a></li>
-<li>LaTeX入门, 刘海洋(milksea)</li>
-<li>利用好各种文档</li>
-</ul>
-</li>
-<li>常见问题<ul>
-<li><code>编译不通过</code> 缺少必要宏包，命令拼写错误，括号未配对等</li>
-<li><code>表格图片乱跑</code> LaTeX自身的浮动定位算法</li>
-<li><code>段落间距变大</code> LaTeX排版算法</li>
-</ul>
-</li>
-</ul>
-<h1 id="文案与知识管理"><a href="#文案与知识管理" class="headerlink" title="文案与知识管理"></a>文案与知识管理</h1><blockquote>
-<p>有道无术，术尚可求；有术无道，则止于术。</p>
-</blockquote>
-<h2 id="“道”——文案设计的原则"><a href="#“道”——文案设计的原则" class="headerlink" title="“道”——文案设计的原则"></a>“道”——文案设计的原则</h2><ul>
-<li>形式<ul>
-<li>结构化排版</li>
-<li>模板、文档规范</li>
-<li>简洁大方（不使用过于复杂的格式）</li>
-<li>尽量使用文字大小区别级别，避免过多字体</li>
-<li>空行与段间距（避免手工）</li>
-</ul>
-</li>
-<li>内容<ul>
-<li>书面语言，注意用语正式（场合）</li>
-<li>话说到刚刚好，不假不空不啰嗦</li>
-<li><strong>言简、意赅、理明</strong></li>
-<li><strong>换位思考</strong>，文案面向的对象</li>
-<li>语言是否合适，表述是否有歧义（审阅）</li>
-</ul>
-</li>
-<li>再谈Word/LaTeX<ul>
-<li>设计理念：内容与格式分离，编辑与编译分离</li>
-<li>软件：<strong>最大内聚，最小耦合</strong>——一个程序只需要做好一件事</li>
-<li>好的排版软件应当让用户专注于内容，而非格式</li>
-<li>推荐关注<code>Markdown</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="个人知识管理"><a href="#个人知识管理" class="headerlink" title="个人知识管理"></a>个人知识管理</h2><ul>
-<li>软件协作<ul>
-<li>文档：Word, LaTeX, Markdown</li>
-<li>公式：LaTeX, MathType</li>
-<li>绘图：PowerPoint, Excel, Visio, Adobe Ps</li>
-<li>数据：Excel, Access, MySQL</li>
-<li>展示：PowerPoint, Keynote, Prezi</li>
-<li>设计：PowerPoint, Adobe Series</li>
-<li>文献：EndNote, NoteExpress, Mendeley</li>
-</ul>
-</li>
-<li>知识管理<ul>
-<li>备份意识：网盘, Git/SVN</li>
-<li>你真的一定需要文档么？<ul>
-<li>笔记：Evernote, Youdao, OneNote</li>
-<li>导图：MindManager</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>再谈软件与工具<ul>
-<li>精益求精</li>
-<li>知识再整合带来的效益</li>
-<li>工具永远只是工具，不要被工具反束缚</li>
-</ul>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/word-latex-manage/" rel="next" title="文档、文案与知识管理">
+                <i class="fa fa-chevron-left"></i> 文档、文案与知识管理
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -1267,14 +574,22 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -1294,8 +609,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1377,6 +701,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#序"><span class="nav-number">1.</span> <span class="nav-text">序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Anaconda简介与安装"><span class="nav-number">2.</span> <span class="nav-text">Anaconda简介与安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Anaconda概述"><span class="nav-number">2.1.</span> <span class="nav-text">Anaconda概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Anaconda的安装"><span class="nav-number">2.2.</span> <span class="nav-text">Anaconda的安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Conda使用与配置"><span class="nav-number">3.</span> <span class="nav-text">Conda使用与配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Conda的环境管理"><span class="nav-number">3.1.</span> <span class="nav-text">Conda的环境管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conda的包管理"><span class="nav-number">3.2.</span> <span class="nav-text">Conda的包管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置国内镜像"><span class="nav-number">3.3.</span> <span class="nav-text">设置国内镜像</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#跋"><span class="nav-number">4.</span> <span class="nav-text">跋</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -1523,6 +864,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -1541,9 +886,46 @@
   <script id="dsq-count-scr" src="https://peteryuan.disqus.com/count.js" async></script>
 
 
+<script>
+  var disqus_config = function() {
+    this.page.url = "http://blogs.peteryuan.net/use-anaconda/";
+    this.page.identifier = "use-anaconda/";
+    this.page.title = 'Anaconda使用总结';
+    };
+  function loadComments() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://peteryuan.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', '' + +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  
+    $(function() {
+      var offsetTop = $('#comments').offset().top - $(window).height();
+      if (offsetTop <= 0) {
+        // load directly when there's no a scrollbar
+        loadComments();
+      } else {
+        $(window).on('scroll.disqus_scroll', function() {
+          // offsetTop may changes because of manually resizing browser window or lazy loading images.
+          var offsetTop = $('#comments').offset().top - $(window).height();
+          var scrollTop = $(window).scrollTop();
+
+          // pre-load comments a bit? (margin or anything else)
+          if (offsetTop - scrollTop < 60) {
+            $(window).off('.disqus_scroll');
+            loadComments();
+          }
+        });
+      }
+    });
+  
+</script>
 
 
 
+
+
+  
 
 
   
@@ -1879,16 +1261,6 @@
   
 
   
-  
-    
-      
-    
-      
-        
-      
-    
-      
-    
   
 
   
